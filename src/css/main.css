@@ -1,0 +1,1255 @@
+html, body{
+
+    margin:0px;
+    width:100%;
+    height: 100%;
+    padding: 0;       
+}
+
+html{
+    font-family: "Gotham rounded", Helvetical, sans-serif;  
+}
+
+/* Globla */
+.d-container{
+    
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+
+
+
+* {
+      box-sizing: border-box;
+}
+
+html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+}
+
+
+
+/* nav starts here */
+
+header{
+    background-color:#3a4f9e;
+background-image: linear-gradient(to right, #3a4f9e , #1b1464);
+    
+    width:100%;
+    height: 100px;
+    
+}
+
+nav {
+      padding: 8px;
+    padding-top:15px;
+}
+
+.logo {
+      float: left;
+      padding: 0px;
+      margin-left: 0px;
+      margin-top: 5px;
+}
+
+.logo a {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 0px;
+      text-decoration: none;
+}
+
+nav ul {
+      float: right;
+}
+
+nav ul li {
+      display: inline-block;
+      float: left;
+    
+}
+
+nav ul li:not(:first-child) {
+      margin-left: 48px;
+}
+
+nav ul li:last-child {
+      margin-right: 24px;
+}
+
+nav ul li a {
+      display: inline-block;
+      outline: none;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: 1.2px;
+      font-weight: 600;
+    margin-top: 8px;
+}
+
+header .nav-wrapper span{
+    border:1.5px solid #c6c4c4;
+    padding:12px;
+    margin-top: -12px;
+    border-radius: 25px;
+    text-align: center;
+    width:100px;
+    
+    
+}
+
+header .nav-wrapper span:hover{
+    background-color:#92d050;
+    
+}
+
+
+/* nav ends here */
+
+
+/* header text and image starts here */
+
+#headbanner{
+    background-color:#3a4f9e; 
+    background-image: linear-gradient(to right, #3a4f9e , #1b1464);
+    min-height: 600px;
+    
+    color:#ffffff;
+    
+}
+
+#headbanner .layerleft{
+    
+    
+    /*background-color:#;*/
+    float:left;
+    
+}
+
+#headbanner .layerright{
+display:inline-block;
+/*background-color:#;*/
+ 
+    width: 35%;
+    height: auto;
+    background-image: 100%;
+    margin-left: 60px;
+    
+
+}
+
+
+#headbanner .layerright img{
+  background-image: cover; 
+    margin-left: 50px;
+    
+}
+   
+#headbanner p{
+    
+    font-weight: lighter;
+    font-size:18px;
+    line-height: 30px;
+    
+    
+    
+}
+
+#headbanner h1{
+    
+    font-size: 42px;
+    line-height: 45px;
+    
+    margin-bottom: 5px;
+    margin-top:120px;
+    
+}
+
+
+#headbanner .playlogo{
+    
+    margin-top: 35px;
+   
+}
+
+
+#headbanner .layerright img{
+    
+    float:right;
+}
+
+/* header text and image ends here */
+
+
+/* The Smarter Way To Donate starts here */
+
+
+#smart{
+   
+    text-align:center;
+    margin-top:45px;
+      margin-bottom:45px; 
+}
+
+#smart h1{
+  font-size: 35px; 
+    color:#394f9e;
+    }
+
+#smart p{
+    
+    color:#434444;
+    line-height: 30px;
+}
+
+#smart h3{
+    
+  color:#394f9e;  
+}
+
+#smart .box{
+  float:left;
+    width:32%;
+    padding:20px;
+    text-align: center;
+    margin-top:20px;
+    
+}
+
+/* The Smarter Way To Donate ends here */
+
+
+
+
+/* Features That Make Us Unique stars here */
+
+
+#allfeat .lefttext{
+   
+    margin-top:20px;
+    margin-bottom:5px;
+    
+    text-align: center;
+    
+}
+
+#allfeat .lefttext h1{
+   font-size:40px;
+    color:white;
+    margin-bottom: 5px;
+    margin-top:45px;
+    
+}
+
+#allfeat .lefttext p{
+    color:white;
+    margin-bottom: 0px;
+    line-height: 30px;
+    
+}
+
+#allfeat .feat button{
+    
+    width:300px;
+    height: 60px;
+    margin-top: 35px;
+    border-radius: 25px;
+    border:1.5px solid white;
+    background-color:#92d050;
+    font-size:20px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+
+
+#allfeat .feat img{
+    
+   width:30%; 
+}
+
+
+
+
+#allfeat .feat h3{
+   color:#394f9e;   
+    
+}
+
+
+
+
+
+#allfeat {
+    width:100%;
+    background-color:#3a4f9e; 
+    background-image: linear-gradient(to left, #3a4f9e , #1b1464);
+    text-align: center;
+}
+
+
+
+#allfeat .feat{
+    
+    margin:20px auto;
+    
+    padding:20px 0px;
+}
+
+#allfeat .feat ul{
+    
+    margin: 0;
+    padding: 0;
+}
+
+#allfeat .feat ul li{
+    
+    list-style: none;
+    float:left;
+    width:28%;
+    height: 250px;
+    background: white;
+    margin:20px 10px 50px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    padding:12px;
+    
+}
+
+
+#allfeat ul li .eachbox{
+    
+    width: 100%;
+    height: 250px;
+}
+
+#donate{
+   text-align: center; 
+   margin-top:45px;
+    margin-bottom:45px;
+}
+
+/* Features That Make Us Unique ends here */
+
+
+
+/* Donate & Make Pledges starts here */
+
+#donate p{
+   margin-bottom: 40px; 
+    line-height: 30px;
+    
+}
+
+#donate h1{
+  font-size: 42px;
+    line-height: 45px;
+    color:#394f9e;
+    margin-bottom: 5px;
+    
+    
+}
+
+#donate button{
+   width:300px;
+    height: 60px;
+    margin-top: 35px;
+    border-radius: 25px;
+    border:1.5px solid white;
+    background-color:#92d050;
+    font-size:20px;
+    color: #ffffff;
+    text-align: center; 
+    
+}
+
+#donate .donathings{
+    
+    margin: .5vw;
+    font-size:0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap:wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow:row-wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display:flex;
+    margin-bottom: 40px; 
+    
+}
+
+
+#donate .donathings div{
+    
+    -webkit-box-flex:auto;
+    -ms-flex:auto;
+    flex:auto;
+    width:100px;
+    margin:.5vw;
+    
+}
+
+
+#donate .donathings div img{
+    
+    width:70%;
+    height: auto;
+    
+}
+
+/* Donate & Make Pledges ends here */
+
+
+/* How Safe is Giveasily starts here */
+
+#secure{
+     background-color:#3a4f9e; 
+    background-image: linear-gradient(to left, #3a4f9e , #1b1464);
+    height: auto;
+    margin-top:45px;
+    text-align: center;
+    
+}
+
+#secure img{
+    
+    margin-top:45px;
+}
+
+#secure h1{
+    
+    color:white;
+    font-size:45px;
+    margin-bottom: 5px;
+}
+
+#secure p{
+    
+    color:white;
+}
+
+#secure .secureme img{
+    
+    margin:5px;
+    
+    
+}
+
+/* How Safe is Giveasily ends here */
+
+
+
+
+
+/* testimony area starts here */
+
+#wrap h1{
+    font-size: 35px; 
+    color:#394f9e;  
+    text-align: center;
+    
+}
+
+#wrap p{
+    
+    text-align: center;
+  
+ 
+}
+
+
+ #wrap{
+    
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+    text-align: center;
+        
+}
+
+.card{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.6s;
+    width: 300px;
+    background:#fff;
+    text-align:center;
+    font-size:16px;
+    /*margin:auto;*/
+    
+}
+
+#wrap button{
+    
+    width:300px;
+    height: 60px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    border-radius: 25px;
+    border:1.5px solid white;
+    background-color:#92d050;
+    font-size:20px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.card:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+    .card img{
+       border-top:4px solid #92d050;
+        border-radius: none;
+        width:100%
+      
+    }
+
+    
+
+    
+    
+    .contain{
+    
+    padding:2px 16px;
+    background:#f1f1f1;
+   
+}
+    
+.contain h4{
+    
+    margin-bottom:5px;
+   
+}
+    
+.contain p{
+    
+    font-weight:350;
+}
+
+  .contain:hover{
+       
+        background-color:#3a4f9e;
+        
+        color:white;
+    }
+
+/* testimony area ends here */
+
+
+
+/* footer area starts here */
+
+#allfoot{
+    
+    height: auto;
+    background-color:#f3f4f2;
+    margin-top:0px;
+    
+}
+
+#allfoot .logoo{
+    
+    float:left;
+    margin-top:10px;
+    
+}
+
+#allfoot .allcontent{
+   
+    margin-top:40px;
+}
+
+#allfoot li {
+    float:left;
+    display:inline;
+    padding:0 40px 0 40px;
+    margin-top: 10px;
+    height: 300px;
+    line-height: 2;
+}
+
+#copy{
+    height: auto;
+    background:#3a4f9e;
+    color:white;
+   padding-top:30px;
+    font-weight:300; 
+    text-align: center;
+    
+}
+
+
+/* footer area ends here */
+
+
+
+/* pricing Page starts here */
+
+
+   #wrap2 h1{
+        
+       text-align: center;
+       font-size: 35px; 
+    color:#394f9e;  
+    
+    }
+    
+#wrap2{
+    
+    margin-bottom: 45px;
+    margin-top:45px;
+}
+
+
+#wrap2 p{
+    
+    text-align: center;
+}
+
+    #wrap2 .col{
+        float:left;
+        width:40%;
+        padding:2px;
+        box-sizing: border-box;
+        margin-left:70px;
+        margin-top:45px;
+        text-align: center;
+        
+    }
+  
+    #wrap2 .price-box{
+        
+      background:#4159a5; 
+        list-style-type: none;
+        border:none;
+        margin:0px;
+        padding:0px;
+        color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+        
+    }
+    
+    #wrap2 .header{
+        
+        background-color:#3a4f9e;
+        color:#fff;
+        font-size:25px;
+    }
+    
+    #wrap2 .price-box li{
+        
+        padding:20px;
+        border-bottom:none;
+        text-align: center;
+        
+    }
+    
+    #wrap2 .emph{
+     background-color:#fafafa; 
+        color: black;
+        
+    }
+
+
+#wrap2 .emph h3{
+    
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+#cal{
+  background-color: #3a4f9e;
+    
+    text-align: center;
+    margin-top:45px;
+   
+  
+}
+
+#cal .conme{
+    
+    margin-top:45px;
+    margin-bottom: 45px;
+     color:white;
+}
+
+#cal .cashbox{
+    
+    background-color:#f7f7f7;
+    width:60%;
+    height: 55px;
+    text-align: center;
+    margin:auto;
+    color:#3f3f3f;
+ 
+}
+
+#cal .cashbox input{
+    
+    background-color:#f7f7f7;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    font-size:2em;
+ 
+}
+
+#cal .cashbox h3{
+    text-align: center;
+    padding:5px;
+    padding-top: 15px;
+}
+
+
+
+#cal li{
+    
+    padding:8px;
+    list-style: none;
+}
+
+#cal button{
+    width:300px;
+    height: 60px;
+    margin-top: 35px;
+    border-radius: 25px;
+    border:1.5px solid white;
+    background-color:#92d050;
+    font-size:20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* pricing Page ends here */
+
+
+
+
+/* company Page starts here */
+
+
+#wrap2 h1{
+    font-size: 35px; 
+    color:#394f9e;  
+    text-align: center;
+    
+}
+
+#wrap2 p{
+    
+    text-align: center;
+  
+ 
+}
+
+
+/* team area starts */
+
+ #team-area{
+    
+    width:100%;
+    margin:auto;
+    margin-top:40px;
+     margin-bottom: 40px;
+     text-align: center;
+        
+}
+
+.team-area-inner{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    width: 300px;
+    background:#3a4f9e;
+    color:white;
+    text-align:center;
+    font-size:16px;
+    float:left;
+    margin:auto;
+    margin: 10px;
+}
+
+
+
+.team-area-inner:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+    .team-area-inner img{
+       border-bottom:2px solid #92d050;
+        border-radius: 0px 0px 0px 0px;
+      
+    }
+
+    
+    
+    .containall{
+    
+    padding:2px 16px;
+   
+}
+
+
+#team-area .team-area-inner h4{
+    
+    font-size:20px;
+    margin-top:8px; 
+    margin-bottom: 0px;
+    
+
+}
+
+
+#team-area .team-area-inner .containall p{
+    
+    margin-top: 8px;
+    
+}
+
+/* team area ends here */
+
+
+
+/* about area starts here */
+
+#about{
+    
+    background-color: #3a4f9e;
+    padding: 15px;
+    color:white;
+   
+    
+    
+}
+
+#about p{
+    
+   line-height: 30px;  
+}
+
+#about .upperlayer {
+    
+    text-align: center;
+    
+    
+    
+}
+
+#about .upperlayer h1{
+    
+    font-size: 35px;
+}
+
+
+#about .vimi{
+    
+   
+   
+}
+
+
+
+#about .vision{
+    width:40%;
+    float:left;
+    text-align: center;
+    
+    
+    
+}
+
+#about .mission{
+    width:40%;
+    float:right;
+    text-align: center;
+    
+ 
+}
+/* about area ends here */ 
+
+
+
+/* company Page ends here */
+
+
+
+@media screen and (max-width:750px){
+    
+   #headbanner .layerright{
+display:none; 
+    }
+    
+    
+    #headbanner .layerleft{
+        
+        margin-bottom: 50px;
+        text-align: center;
+    }
+   
+    /*...*/
+    #headbanner h1{
+        
+        margin-top: 50px;
+    }
+
+    #wrap2 .col{
+        float:none;
+        width:100%;
+        padding:2px;
+        box-sizing: border-box;
+        margin-left:10px;
+        margin-top:45px;
+        text-align: center;
+        
+    }
+
+        #allfoot .logoo{
+    
+    float:none;
+    margin-top:10px;
+    margin-left: 45px;
+    
+}
+    
+   #allfoot li {
+    float:none;
+    display:block;
+    padding:0 40px 0 40px;
+    margin-top: 10px;
+    height: 300px;
+    line-height: 2;
+       text-align: center;
+} 
+
+    #allfeat .feat{
+        
+        width:100%;
+        
+        padding:0px;
+    }
+    
+    
+    #allfeat .feat ul li{
+        float:none;
+        width:80%;
+        margin: 40px auto;
+    }  
+
+        
+    #smart .box{
+  float:none;
+        width:80%;
+        margin-left: 35px;
+    
+    
+}
+    
+    
+    
+    
+}
+
+/*@media screen and (max-width:750px){
+    
+    #wrap2 .col{
+        float:none;
+        width:100%;
+        padding:2px;
+        box-sizing: border-box;
+        margin-left:10px;
+        margin-top:45px;
+        text-align: center;
+        
+    }
+    
+}*/
+
+/*osama added this */
+@media screen and (max-width:500px){
+    
+    
+#cal .cashbox{
+    
+    background-color:#f7f7f7;
+    width:90%;
+    height: 55px;
+    text-align: center;
+    margin:auto;
+    color:#3f3f3f;
+ 
+}
+
+#cal .cashbox input{
+    
+    background-color:#f7f7f7;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    font-size:1.5em;
+ 
+}
+    
+}
+
+/* end osama addintiob */
+
+
+/*@media screen and (max-width:750px){
+    
+    
+    #allfoot .logoo{
+    
+    float:none;
+    margin-top:10px;
+    margin-left: 45px;
+    
+}
+    
+   #allfoot li {
+    float:none;
+    display:block;
+    padding:0 40px 0 40px;
+    margin-top: 10px;
+    height: 300px;
+    line-height: 2;
+       text-align: center;
+} 
+    
+}*/
+
+@media screen and (max-width:1250px) {
+    
+    #allfeat .feat ul li{
+        
+        width:40%;
+        margin: 40px;
+    }  
+    
+    
+}
+
+
+/*@media screen and (max-width:750px){
+    
+    #allfeat .feat{
+        
+        width:100%;
+        
+        padding:0px;
+    }
+    
+    
+    #allfeat .feat ul li{
+        float:none;
+        width:80%;
+        margin: 40px auto;
+    }  
+    
+    
+    
+    
+}*/
+
+
+   /*@media screen and (max-width:750px){
+    
+    
+    
+    #smart .box{
+  float:none;
+        width:80%;
+        margin-left: 35px;
+    
+    
+}
+    
+    
+} */
+    
+
+
+
+@media screen and (max-width: 864px) {
+      .logo {
+            padding: 0;
+          
+      }
+
+      .nav-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: #fff;
+            opacity: 0;
+            transition: all 0.2s ease;
+      }
+
+      .nav-wrapper ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+      }
+
+      .nav-wrapper ul li {
+            display: block;
+            float: none;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+      }
+
+      .nav-wrapper ul li:nth-child(1) a {
+            transition-delay: 0.2s;
+      }
+
+      .nav-wrapper ul li:nth-child(2) a {
+            transition-delay: 0.3s;
+      }
+
+      .nav-wrapper ul li:nth-child(3) a {
+            transition-delay: 0.4s;
+      }
+
+      .nav-wrapper ul li:nth-child(4) a {
+            transition-delay: 0.5s;
+      }
+
+      .nav-wrapper ul li:not(:first-child) {
+            margin-left: 0;
+      }
+
+      .nav-wrapper ul li a {
+            padding: 25px 24px;
+            opacity: 0;
+            color: #000;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            transform: translateX(-20px);
+            transition: all 0.2s ease;
+      }
+
+      .nav-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            display: block;
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            z-index: 9999;
+            border-radius: 50%;
+          margin-top: 20px;
+          
+      }
+
+      .nav-btn i {
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: white;
+            border-radius: 2px;
+            margin-left: 14px;
+          
+          
+      }
+    
+    
+
+      .nav-btn i:nth-child(1) {
+            margin-top: 16px;
+      }
+
+      .nav-btn i:nth-child(2) {
+            margin-top: 4px;
+            opacity: 1;
+      }
+
+      .nav-btn i:nth-child(3) {
+            margin-top: 4px;
+      }
+}
+
+#nav:checked + .nav-btn {
+      transform: rotate(45deg);
+    position: fixed;
+    
+    
+}
+
+#nav:checked + .nav-btn i {
+      background: white;
+      transition: transform 0.2s ease;
+    
+    
+}
+
+#nav:checked + .nav-btn i:nth-child(1) {
+      transform: translateY(6px) rotate(180deg);
+}
+
+#nav:checked + .nav-btn i:nth-child(2) {
+      opacity: 0;
+}
+
+#nav:checked + .nav-btn i:nth-child(3) {
+      transform: translateY(-6px) rotate(90deg);
+}
+
+#nav:checked ~ .nav-wrapper {
+      z-index: 9990;
+      opacity: 1;
+    background-color:#3a4f9e; 
+    background-image: linear-gradient(to right, #3a4f9e , #1b1464);
+}
+
+#nav:checked ~ .nav-wrapper ul li a {
+      opacity: 1;
+      transform: translateX(0);
+    color:white;
+    
+}
+
+.hidden {
+      display: none;
+}
+
+/*Osama's other modification */
+.o-landing-position-relative {
+    position:relative
+}
+.o-modify-landing {
+    position:absolute;
+    bottom:0px;
+    right:0px
+}
+/*end osama's other modifications*/
+
+
+
+
+
+
+
+
+
+

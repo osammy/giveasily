@@ -1,0 +1,557 @@
+.filter {
+    width:150px;
+}
+
+.o-nav-ul {
+    list-style-type:none;
+}
+.o-loader-class {
+visibility:visible;
+display:flex;
+justify-content:center;
+}
+.o-visibility-hidden {
+    visibility:hidden
+}
+
+.o-visibility-visible {
+    visibility:visible;
+}
+.color-green {
+    color:green
+}
+.o-letter-spacing {
+letter-spacing: 0.1em
+}
+.color-red {
+    color:red
+}
+
+.bg-color-green {
+    background: green
+}
+.bg-color-grey {
+    background:grey
+}
+
+.o-sidebar-header {
+    font-weight: 700;
+    font-size:0.9em
+    /*letter-spacing: 3px*/
+}
+
+.o-correct-btn-radius {
+    border-radius:5px
+}
+
+select:active {
+    outline:none
+}
+
+.show-border {
+    border:1px solid black /*remove this class later*/
+}
+
+.bottom-cards {
+border-radius:10px;
+background:blue;
+height:120px;
+width:30%;
+flex-direction:column;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white
+
+}
+
+.float-right {
+    float:right
+}
+
+.bg-theme {
+    background: #290c49
+}
+
+.theme-color {
+    color:#290c49
+}
+.bg-white {
+    background:white
+}
+/* superpose animate.css animations speed*/
+#o-dashboard-notification {
+
+  animation-duration: 0.3s;
+  -moz-animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3;
+  /*-moz-animation-delay:0.5s;
+  -webkit-animation-delay:0.5s;
+  animation-delay: 0.5s;*/
+  /*animation-iteration-count: infinite;*/
+
+}
+
+#o-dashboard-notification-detail {
+  animation-duration: 0.3s;
+  -moz-animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3;
+    /*-moz-animation-delay:0.5s;
+  -webkit-animation-delay:0.5s;
+  animation-delay: 0.5s;*/
+
+}
+
+/*End overide animate.css animation speed*/
+
+
+.bg-off-white {
+    background: #fcfcfc;
+}
+
+.bg-red {
+    background:red
+}
+
+.bg-purple {
+    background:purple
+}
+
+.small {
+    font-size:0.9em
+}
+
+
+
+.medium-font-size {
+    font-size: 1.5em
+}
+
+.float-left {
+    float:left
+}
+
+.modify-icon-size {
+    font-size:3em;
+}
+
+.modify-icon-size__bigger {
+    font-size:10em;
+}
+.green {
+    color:green
+}
+.zero-border-radius {
+    border-radius:0px
+}
+.color-white {
+    color:white
+}
+
+.query-transactions {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.query-transactions__form {
+    background:#f5f5f5
+}
+.block-dashboard {
+    background:rgba(1,1,1,0.8);
+    position:absolute;
+    width:100%;
+    z-index: 100000000000;
+    height:100%;
+    align-items:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+.very-small {
+    font-size:0.5em
+}
+/*Main*/
+
+.topCard {
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6)
+
+}
+
+.o-notification-list {
+background:#fbfbfb;
+border-radius:5px;
+position:relative;
+}
+.o-view-icon {
+    position:absolute;
+    background:#cdb675;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    right:-10px;
+    top:27px;
+    cursor:pointer;
+}
+.align-center {
+    text-align:center;
+}
+.dont-display {
+    display:none
+}
+.donation-form {
+    margin:0 auto;
+    width:80%
+}
+.display-blockade {
+    display:block
+}
+.medium-height {
+    height:30px
+}
+.color-grey {
+    color:grey
+}
+
+
+
+.color-grey-2 {
+    color:#333
+}
+/*End  Main*/
+.color-blue {
+    color:blue
+}
+.color-blue-2 {
+    color:#0283eb
+}
+.smaller-text {
+    font-size:0.7em
+}
+::placeholder {
+    color:#007fff;
+    opacity:1
+}
+
+.position-relative {
+position:relative
+}
+.position-absolute {
+position:absolute
+} 
+
+
+.position-loader {
+    display:flex;
+    justify-content: center;
+    top:200px;
+    position:relative
+}
+.width-100-percent {
+    width:100%
+}
+/*.adjust-width-for-mobile {
+    width:100%;
+    border:1px solid red;
+}*/
+
+#email-confirmation-overlay {
+width:40%;
+height:40%;
+}
+
+/* calender class */
+.calender-day {
+    font-size:10px
+}
+
+.calender-popper {
+    width:200px;
+    font-size:13px
+
+}
+/*      end:       */
+.o-buttons {
+    background-image: linear-gradient(to right, #008aec , #33b964);
+    border-radius: 30px;
+    width:50%;
+    margin:0 auto;
+}
+
+/*.form-elegant .font-small {
+  font-size: 0.8rem; }
+
+.form-elegant .z-depth-1a {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+  box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+
+.form-elegant .z-depth-1-half,
+.form-elegant .btn:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }*/
+
+/* for Register.js*/
+ .o-center-card {
+     /*display:flex;
+     justify-content:center;
+     align-items:center;*/
+
+     width:40%;
+     margin:0 auto;
+     background:white;
+     
+ }
+
+ .o-prep-card {
+    width:50%;
+    margin:20px
+ }
+/* End Register.js */
+
+
+/*Login Card */
+.login-card {
+    width:35%;
+    margin:0 auto
+}
+/*style={{background:"white", textAlign:"center", textTransform:"uppercase"}}*/
+
+.o-login-text {
+    background:white;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*END LOGIN*/
+/* Coporate form */
+.social-checkbox {
+    width:20px;
+    height:20px;
+}
+
+.theme-logo-color {
+    color:#394f9e
+}
+
+.o-form-sub {
+    font-size:small;
+    font-weight:500;
+}
+
+.top-form-select {
+    width:150px;
+    float:left;
+    margin-right:10px;
+}
+.coporate-form {
+    background: url('./Background.jpg');
+    background-size:cover;
+}
+.coporate-form-body {
+    width:70%;
+    margin: 0 auto;
+    padding:20px;
+}
+
+.width-50-percent {
+    width:50%;
+}
+
+.width-70-percent {
+    width:70%;
+}
+
+.margin-zero-auto {
+    margin:0 auto;
+}
+.display-inline {
+    display:inline-block
+}
+
+.font-weight-bold {
+    font-weight: 700
+}
+
+.modify-input-border {
+    border:none;
+    border-bottom:1px solid #eee;
+    border-radius:0px
+}
+
+/* End coporate form */
+
+/* Unredeemed Pledge */
+
+.pledge-redeem-alert {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    width:100px;
+    height:30px;
+    top:-10px;
+    left:10px;
+    color:white;
+    z-index:10
+}
+.o-position-flex-content-end {
+    display:flex;
+    justify-content: flex-end
+}
+/*End Pledge */
+
+.report-issue {
+    width:250px;
+    height:40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:#290c49;
+    position:relative;
+    padding:0px;
+    bottom:0px;
+    right:0px;
+}
+.cursor-pointer {
+    cursor:pointer
+}
+
+.border-right-white {
+    border-right:1px solid white;
+}
+
+/*BEGIN VIEW PAGE COMPONENT*/
+.center-page  {
+    width:80%;
+    margin: 0 auto
+}
+
+.no-padding-no-margin {
+    padding:0px;
+    margin:0px;
+}
+.page-table-row {
+    font-size:0.9em;
+    /*font-weight:500;*/
+}
+
+.border-bottom-theme-color {
+    border-bottom:1px solid #290c49
+}
+
+.bg-color-grey-3 {
+    background:#eee
+}
+
+.o-overflow-x-auto {
+    overflow-x:auto;
+}
+.pages-card-format {
+    background:white;
+    width:100%
+}
+.input-themed-border {
+    border: 0.5px solid #290c49;
+}
+.modify-input {
+    border-right:none;
+    border-left:none;
+    background:white
+}
+
+.page-content-layout {
+    display:flex;
+    justify-content:space-between;
+}
+.color-blackish {
+    color:#555
+}
+
+/*END VIEW PAGE*/
+/*@media only screen and (max-width: 750px) {
+
+.login-card {
+    width:60%
+}
+}*/
+/*Table Material.js component*/
+/*style={{display:this.state.allDonationsOrPledges.length === 0?"flex":"none",justifyContent:"center"}}*/
+.tfoot-content {
+    display:flex;
+    justify-content: center
+}
+/*End Table Material component*/
+@media only screen and (max-width: 900px) {
+
+#email-confirmation-overlay {
+width:55%;
+}
+
+.o-buttons {
+    width:70%
+}
+
+.coporate-form-body {
+    width:100%;
+    margin: 0 auto;
+    padding:15px;
+}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+#email-confirmation-overlay {
+width:100%;
+}
+
+.o-buttons {
+    width:100%
+}
+
+.calender-popper {
+    width:100px
+
+}
+
+ .o-prep-card {
+    width:100%;
+    margin:10px
+ }
+
+ .coporate-form-body {
+    width:100%;
+}
+
+.donation-form {
+    width:100%;
+}
+/*view Page*/
+.center-page  {
+    width:100%;
+}
+/*End Page*/
+/*Login Page*/
+.login-card {
+    width:100%
+}
+/*End Login */
+/*Main*/
+
+/*End  Main*/
+}
+/*BEGIN SIDEBAR MENU*/
+.color-blue-variation-1 {
+    color:#3f4b9f
+}
+/*END SIDEBAR MENU*/
+
+/*DOnations*/
+.o-donations-select {
+    width:120px;
+    float:left;
+    margin-right:10px
+}
+
+
+
+/*END DONATIONS*/
