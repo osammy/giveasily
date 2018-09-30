@@ -33,6 +33,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
+  "proxy": "http://localhost:5000",
   "homepage": "http://osammy.github.io/giveasily",
   "devDependencies": {
     "gh-pages": "^2.0.0"
