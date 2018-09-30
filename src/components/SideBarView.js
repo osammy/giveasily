@@ -11,22 +11,27 @@ class SideBarView extends Component {
 constructor(props) {
   super(props);
 
-try {
-    const userData = USER.getLocalStorageUserData();
-    var email = userData.email;
-    var blockDashboard = !userData.email_verified;
-} catch(e){
-this.props.history.replace('/login')
-console.log(e)
-}
+// try {
+//     const userData = USER.getLocalStorageUserData();
+//     var email = userData.email;
+//     var blockDashboard = !userData.email_verified;
+// } catch(e){
+// this.props.history.replace('/login')
+// console.log(e)
+// }
 
-console.log(blockDashboard)
-          this.state = {
+        //   this.state = {
+        //     sidebarDocked: mql.matches,
+        //     sidebarOpen: false,
+        //     mql,
+        //     email,
+        //     blockDashboard
+        // };
+
+                  this.state = {
             sidebarDocked: mql.matches,
             sidebarOpen: false,
-            mql,
-            email,
-            blockDashboard
+            mql
         };
 
   this.mediaQueryChanged = this.mediaQueryChanged.bind(this);
@@ -59,7 +64,9 @@ componentWillUnmount() {
     render(){
         return (     
         <div>
-            <EmailConfirmationOverlay blockDashboard={this.state.blockDashboard} email={this.state.email} />
+            {/*<EmailConfirmationOverlay blockDashboard={this.state.blockDashboard} email={this.state.email} />*/}
+                        <EmailConfirmationOverlay blockDashboard={true} email="osamaimafidn@gmail.coms" />
+
 
         <Sidebar
           sidebar={<SideBarMenu />}
